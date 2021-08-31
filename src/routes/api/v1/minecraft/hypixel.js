@@ -1,4 +1,6 @@
-const hypixelAPIKey = 'XXXXXXXXXXXXXXXX'; // TODO: Make this to an environment variable
+import constants from "$lib/constants";
+
+const hypixelAPIKey = constants.HYPIXEL_API_KEY
 
 export async function get({ query }) {
     const name = query.get('name');

@@ -11,14 +11,14 @@
 <div class="container ml-auto mr-auto flex flex-col justify-center items-center mt-40">
 	<div class="flex items-center border-b-2 border-gray-500 py-2 w-full max-w-sm">
 		<input
-			class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+			class="appearance-none bg-transparent border-none w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none"
 			type="text"
 			placeholder="Username"
 			aria-label="Username"
 			bind:value={name}
 		/>
 		<button
-			class="flex-shrink-0 bg-transparent hover:bg-gray-600 border-gray-500 hover:border-gray-600 text-sm border-2 text-grgrayeen-600 hover:text-white py-1 px-2 rounded"
+			class="flex-shrink-0 bg-transparent hover:bg-gray-600 border-gray-500 hover:border-gray-600 text-sm border-2 text-gray-500 hover:text-white py-1 px-2 rounded"
 			type="submit"
 			on:click={sendRequest}
 		>
